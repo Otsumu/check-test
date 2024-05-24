@@ -1,0 +1,51 @@
+ main {
+    color:rgb(110, 98, 84);
+  }
+  
+ .header {
+    border-bottom: 1px solid rgb(234, 232, 230);
+    font-family: 'Noto Serif JP', serif;
+    font-size: 20px;
+    font-weight: normal;
+ }
+  
+ .header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+ }
+  
+ .header__inner h1 {
+    flex: 1;
+    text-align: center;
+    margin: 0;
+ }
+  
+ .header__right {
+    display: flex;
+    align-items: center;
+ }
+  
+ .meatball {
+    width: 40px; 
+    height: 40px; 
+    background: rgb(181, 180, 180);
+    border: 10px solid rgb(181, 180, 180);
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center; 
+    padding: 0;
+    margin-left: 20px;
+ }
+  
+  .meatball-ball {
+    width: 3px;
+    height: 3px;
+    background-color: white;
+    border-radius: 50%;
+    margin: 0 2px;
+  }
