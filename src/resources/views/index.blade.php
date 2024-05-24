@@ -54,11 +54,11 @@
               <td><label for="tel">電話番号<span class="required"> ※ </span></label></td>
               <td colspan="2">
                 <div class="phone-fields">
-                  <input type="text" id="phone1" name="tel" placeholder="例: 000" value="{{ old('phone1') }}" class="input-field">
+                  <input type="text" id="phone1" name="phone1" placeholder="例: 000" value="{{ old('phone1') }}" class="input-field">
                   <span>  -  </span>
-                  <input type="text" id="phone2" name="tel" placeholder="例: 1234" value="{{ old('phone2') }}" class="input-field">
+                  <input type="text" id="phone2" name="phone2" placeholder="例: 1234" value="{{ old('phone2') }}" class="input-field">
                   <span>  -  </span>
-                  <input type="text" id="phone3" name="tel" placeholder="例: 5678" value="{{ old('phone3') }}" class="input-field">
+                  <input type="text" id="phone3" name="phone3" placeholder="例: 5678" value="{{ old('phone3') }}" class="input-field">
                 </div>
               </td>
             </tr>
@@ -75,13 +75,12 @@
               <td colspan="2">
                 <select class="select-field" name="category__id" id="category__id">
                   <option value="">選択してください</option>
-                  <option value="delivery">商品のお届けについて</option>
-                  <option value="exchange">商品の交換について</option>
-                  <option value="trouble">商品トラブル</option>
-                  <option value="inquiry">ショップへのお問い合わせ</option>
-                  <option value="other">その他</option>
-              </select>
-              
+                  <option value="商品のお届けについて">商品のお届けについて</option>
+                  <option value="商品の交換について">商品の交換について</option>
+                  <option value="商品トラブル">商品トラブル</option>
+                  <option value="ショップへのお問い合わせ">ショップへのお問い合わせ</option>
+                  <option value="その他">その他</option>
+              </select>              
               </td>
             </tr>
             <tr>

@@ -19,7 +19,7 @@ Route::get('/confirm', [ContactController::class, 'confirm']);
 Route::post('/confirm', [ContactController::class, 'confirm']);
 Route::get('/thanks', [ContactController::class, 'store']);
 Route::post('/thanks', [ContactController::class, 'store']);
-Route::get('/', [ContactController::class, 'redirect']);
+
 
 
 
