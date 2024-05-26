@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@yield('css')
+@section('css')
 <link rel="stylesheet" href="{{ asset('css/index.css') }}">
 @section('title','お問い合わせ')
 
@@ -73,7 +73,7 @@
             <tr>
               <td><label for="contact_type">お問い合わせの種類<span class="required"> ※ </span></label></td>
               <td colspan="2">
-                <select class="select-field" name="category__id" id="category__id">
+                <select class="select-field" name="contact__type" id="category__id">
                   <option value="">選択してください</option>
                   <option value="商品のお届けについて">商品のお届けについて</option>
                   <option value="商品の交換について">商品の交換について</option>
@@ -86,7 +86,7 @@
             <tr>
               <td><label for="contact_content">お問い合わせの内容<span class="required"> ※ </span></label></td>
               <td colspan="2">
-                <textarea name="content" rows="3" cols="40" placeholder="お問い合わせの内容をご記載ください" class="input-field"></textarea>
+                <textarea name="message" rows="3" cols="40" placeholder="お問い合わせの内容をご記載ください" class="input-field"></textarea>
               </td>
             </tr>
         </table>

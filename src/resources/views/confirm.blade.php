@@ -37,11 +37,11 @@
               </tr>
               <tr>
                 <td class="label">お問い合わせの種類</td>
-                <td class="value" colspan="2">{{ $contact['category__id'] }}</td>
+                <td class="value" colspan="2">{{ $contact['contact__type'] }}</td>
               </tr>
               <tr>
                 <td class="label content-label">お問い合わせの内容</td>
-                <td class="value content-value">{{ $contact['content'] }}</td>
+                <td class="value content-value">{{ $contact['message'] }}</td>
               </tr>
             </tbody>
           </table>
@@ -51,8 +51,8 @@
         @csrf
           <button type="submit" class="confirm-btn">送信</button>
         </form>
-        <form action="/" method="get">
-          <button type="reset" class="confirm-btn">修正</button>
+        <form action="/input" method="get">
+          <button type="submit" class="confirm-btn">修正</button>
         </form>
       </div>
   </div>

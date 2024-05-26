@@ -23,7 +23,9 @@
             <span class="meatball-ball"></span>
           </button>
         </div>
+      </div>    
   </header>
+  
   <main>
     @yield('content')
   </main>
