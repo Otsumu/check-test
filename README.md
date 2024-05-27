@@ -1,7 +1,3 @@
-
-# ER図
-![check-test2](https://github.com/Otsumu/check-test2/assets/155893944/7161a763-d00d-4bf1-a18f-1996f4124ec3)
-
 # アプリケーション名
 このアプリケーションは、[check-test2]です。ユーザーがお問い合わせフォームに名前やメールアドレス、問い合わせ内容等の必要情報を入力、
 そのデータが管理者の管理画面で表示されるようになっています。
@@ -22,10 +18,8 @@
 ## 使用技術
 .  HTML,CSS
 .　PHP
-.　Laravel 8.
+.　Laravel 8.0
 
-## ER図
-![check-test2](https://github.com/Otsumu/check-test2/assets/155893944/7161a763-d00d-4bf1-a18f-1996f4124ec3)
 
 ## URL
 ・　環境開発：http://localhost/
