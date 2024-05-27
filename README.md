@@ -20,6 +20,8 @@
 .　PHP
 .　Laravel 8.0
 
+## ER図　
+/Users/tsujimotoaya/coachtech/laravel/check-test2/check-test2.svg
 
 ## URL
 ・　環境開発：http://localhost/
