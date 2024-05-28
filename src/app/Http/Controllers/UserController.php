@@ -31,7 +31,7 @@ class UserController extends Controller
     return redirect()->route('login');
 }
 
-    public function login(Request $request)
+    public function login(UserRequest $request)
     {
         $request->validate([
             'email' => 'required|email',

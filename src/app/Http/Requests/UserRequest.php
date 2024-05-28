@@ -26,8 +26,8 @@ class UserRequest extends FormRequest
         if ($this->is('register')) {
             return [
                 'name' => ['required', 'string'],
-                'email' => ['required', 'email'],
-                'password' => ['required', 'string'],
+                'email' => ['required','email'],
+                'password' => ['required','string'],
             ];
         } elseif ($this->is('login')) {
             return [
