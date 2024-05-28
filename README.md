@@ -20,6 +20,9 @@
 .　PHP
 .　Laravel 8.0
 
+## ER図
+![check-test2](https://github.com/Otsumu/check-test2/assets/155893944/df9e8eaf-e4d1-4609-9b72-5d96f09bb20f)
+
 
 ## URL
 ・　環境開発：http://localhost/
